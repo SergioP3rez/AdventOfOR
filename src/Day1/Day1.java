@@ -45,6 +45,6 @@ public class Day1 {
             minColor = Math.max(minColor, colors[i]);
         }
 
-        System.out.print(minColor + "\n");
+        System.out.println(minColor);
     }
 }
