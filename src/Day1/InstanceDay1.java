@@ -42,7 +42,7 @@ public class InstanceDay1 {
 
     }
 
-    public Set<Integer> getAdjacents(int u) {
+    public Set<Integer> getAdjacent(int u) {
         return this.graph[u];
     }
 

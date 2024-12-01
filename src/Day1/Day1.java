@@ -28,7 +28,7 @@ public class Day1 {
         while (!Q.isEmpty()) {
             int u = Q.peek();
             Q.remove();
-            for (int x : instance.getAdjacents(u)) {
+            for (int x : instance.getAdjacent(u)) {
                 count[x]--;
                 if (count[x] == 0) {
                     Q.add(x);
